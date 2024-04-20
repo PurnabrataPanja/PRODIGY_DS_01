@@ -4,7 +4,7 @@
 This project visualizes the distribution of population across different age groups over multiple years using bar charts and line plots. The dataset used for visualization is "population_distribution.csv".
 
 ## Google Colab Notebook:
-The code for generating the visualizations is available in the Google Colab notebook: [Population_Distribution_Visualization.ipynb](Population_Distribution_Visualization.ipynb).
+The code for generating the visualizations is available in the Google Colab notebook: [Prodigy__DataScience_Task1.ipynb](Prodigy__DataScience_Task1.ipynb).
 
 ## Dataset:
 The dataset contains the following columns:
@@ -23,17 +23,14 @@ The following dependencies are required to execute the code:
 ### Bar Chart:
 A bar chart is created for each age group, showing the percentage of population over the years.
 
-![Bar Chart](images/bar_chart.png)
-
 ### Line Plot:
 A line plot is created for each age group, illustrating the change in population percentage over the years.
 
-![Line Plot](images/line_plot.png)
 
 ## Usage:
 To reproduce the visualizations:
 1. Download the dataset "population_distribution.csv".
-2. Open the Google Colab notebook "Population_Distribution_Visualization.ipynb".
+2. Open the Google Colab notebook "Prodigy__DataScience_Task1.ipynb".
 3. Upload the dataset to your Google Colab environment.
 4. Run the code cells in the notebook to generate the visualizations.
 
