@@ -1,84 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+# Population Distribution Visualization
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Population Distribution Visualization</title>
-</head>
+## Overview:
+This project visualizes the distribution of population across different age groups over multiple years using bar charts and line plots. The dataset used for visualization is "population_distribution.csv".
 
-<body>
+## Google Colab Notebook:
+The code for generating the visualizations is available in the Google Colab notebook: [Population_Distribution_Visualization.ipynb](Population_Distribution_Visualization.ipynb).
 
-    <h1>Population Distribution Visualization</h1>
+## Dataset:
+The dataset contains the following columns:
+- **Year**: The year for which the population distribution is recorded.
+- **0-14 years**: Percentage of population aged 0-14 years.
+- **15-64 years**: Percentage of population aged 15-64 years.
+- **65 years +**: Percentage of population aged 65 years and above.
 
-    <p>This project aims to visualize the distribution of a categorical or continuous variable using a bar chart or histogram. It was completed as part of an internship at Prodigy InfoTech.</p>
+## Dependencies:
+The following dependencies are required to execute the code:
+- Python 3.x
+- Pandas
+- Matplotlib
 
-    <h2>Task Description</h2>
+## Visualizations:
+### Bar Chart:
+A bar chart is created for each age group, showing the percentage of population over the years.
 
-    <p>During the internship, the task was to create a visualization that effectively represents the distribution of a chosen variable, such as ages or genders, in a population dataset.</p>
+![Bar Chart](images/bar_chart.png)
 
-    <h2>Project Details</h2>
+### Line Plot:
+A line plot is created for each age group, illustrating the change in population percentage over the years.
 
-    <ul>
-        <li><strong>Dataset:</strong> The dataset used for this task is "population_distribution.csv".</li>
-        <li><strong>Visualization Tool:</strong> Python libraries such as Matplotlib or Seaborn were utilized to create the bar chart or histogram.</li>
-        <li><strong>Google Colab File:</strong> The Google Colab notebook used for this project is available in the repository for reference.</li>
-    </ul>
+![Line Plot](images/line_plot.png)
 
-    <h2>Repository Structure</h2>
+## Usage:
+To reproduce the visualizations:
+1. Download the dataset "population_distribution.csv".
+2. Open the Google Colab notebook "Population_Distribution_Visualization.ipynb".
+3. Upload the dataset to your Google Colab environment.
+4. Run the code cells in the notebook to generate the visualizations.
 
-    <pre>
-    population_distribution_visualization/
-    │
-    ├── data/
-    │   └── population_distribution.csv
-    │
-    ├── notebooks/
-    │   └── Population_Distribution_Visualization.ipynb
-    │
-    └── README.md
-    </pre>
+## Contributing:
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss the modifications.
 
-    <h2>Instructions</h2>
-
-    <ol>
-        <li>Clone the repository:</li>
-    </ol>
-
-    <code>
-        git clone https://github.com/yourusername/population_distribution_visualization.git
-    </code>
-
-    <ol start="2">
-        <li>Open the Jupyter notebook <strong>Population_Distribution_Visualization.ipynb</strong> in Google Colab or Jupyter Notebook to explore the code and visualization.</li>
-    </ol>
-
-    <h2>Code</h2>
-
-    <pre>
-        <code>
-            <!-- Paste your Python code here -->
-        </code>
-    </pre>
-
-    <h2>Key Learnings</h2>
-
-    <ul>
-        <li>Enhanced skills in data visualization using Python libraries.</li>
-        <li>Developed an understanding of interpreting and communicating insights from visualizations.</li>
-    </ul>
-
-    <h2>Next Steps</h2>
-
-    <ul>
-        <li>Explore more advanced visualization techniques.</li>
-        <li>Apply data analysis and visualization skills to larger and more complex datasets.</li>
-    </ul>
-
-    <h2>License</h2>
-
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
-</body>
-
-</html>
+## License:
+This project is licensed under the [MIT License](LICENSE).
