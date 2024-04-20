@@ -12,5 +12,5 @@ During the internship, the task was to create a visualization that effectively r
 - **Visualization Tool:** Python libraries such as Matplotlib or Seaborn were utilized to create the bar chart or histogram.
 - **Google Colab File:** The Google Colab notebook used for this project is available in the repository for reference.
 
-## Repository Structure
+
 
