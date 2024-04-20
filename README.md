@@ -7,6 +7,7 @@ This project visualizes the distribution of a categorical or continuous variable
 <br>
 During an internship at Prodigy InfoTech, the task was to create visualizations that effectively represent the distribution of a chosen variable in a population dataset. In this project, the percentage distribution of population by age group over multiple years is visualized using Python and Matplotlib.
 
+
 <br>
 **Dataset**
 <br>
